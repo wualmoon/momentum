@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>나만의 동기부여 홈화면 만들기</title>
+
+    <script src="index.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEwMjZfMjU0%2FMDAxNjY2NzU4NTc5Mzg5.nvMX3MqEQvfgqFtKGsy-k9K3xq9HG3BRaleWkNjQeWgg.oo3r_3cnQ_BjmN7-_tmTY7K50mL6wgkNEByM-L8EAg8g.JPEG.1009sky1%2Fphoto-1609853394676-a46e2fa714f8.jpg&type=a340");
+            background-position: center;   
+
+            color: white;
+        }
+
+        .time {
+            font-size: 80px;
+            font-weight: bold;
+        }
+
+        .greating{
+            font-size: 50px;
+        }
+
+        .todo {
+            font-size: 40px;
+        }
+
+        .author {
+            font-size: 30px;
+            font-style: italic;
+        }
+
+        .main {
+            width: 100vw;
+            height: 80vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+   <div class="main">
+    <div id="time" class="time">20:34</div>
+    <div class="greating">Hello, Yungsang!</div>
+    <div class="todo">주 3회 운동하기!</div>
+   </div>
+   <div class="quote">
+    <div id="author" class="author">- 명언의 저자 -</div>
+    <div id="content" class="content">" 명언의 내용 "</div>
+   </div>
+    
+
+</body>
+
+</html>
